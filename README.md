@@ -1,7 +1,8 @@
-<b>Addons created for Clearvision theme. Might not work properly with other themes</b>
+# Clearvision Addons
+<p>Addons created for Clearvision theme. Might not work properly with other themes</p>
 
-# Gradients
-Adds gradients to various parts of the theme to make it more colourful
+<h2>Gradients</h2>
+<p>Adds gradients to various parts of the theme to make it more colourful</p>
 
 <h3>Usage</h3>
 <ol>
