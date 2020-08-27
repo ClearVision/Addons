@@ -83,7 +83,7 @@
 .name-IbjUBS:after,
 .privateChannelsHeaderContainer-3NB1K1:after,
 .discoverHeader-1TWTqG:after {
-	background: linear-gradient(to right, var(--gradient-color2) 50%, transparent);
+	background: linear-gradient(var(--gradient-direction), var(--gradient-color2) 50%, transparent);
 }
 
 .privateChannelRecipientsInviteButtonIcon-3A3uTc /* dm '+' symbol */ {
