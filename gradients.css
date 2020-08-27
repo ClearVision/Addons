@@ -36,7 +36,7 @@
 .container-1r6BKw .topPill-30KHOu .item-PXvHYJ.selected-3s45Ha.themed-OHr7kt, /* home page sub tabs */
 .newMessagesBar-265mhP:before, /* new message bar */
 .jumpToPresentBar-G1R9s6:hover /* jump to present bar */ {
-	background: linear-gradient(130deg, var(--gradient-color1) 0%, var(--gradient-color2) 100%) !important;
+	background: linear-gradient(var(--gradient-direction), var(--gradient-color1) 0%, var(--gradient-color2) 100%) !important;
 }
 
 
@@ -47,7 +47,7 @@
 }
 .mentioned-xhSam7:after {
 	content: "";
-	background: linear-gradient(130deg, var(--gradient-color1) 0%, var(--gradient-color2) 100%);
+	background: linear-gradient(var(--gradient-direction), var(--gradient-color1) 0%, var(--gradient-color2) 100%);
 	opacity: 0.07;
 	position: absolute;
 	top: 0;
@@ -58,7 +58,7 @@
 	width: 100%;
 }
 .mentioned-xhSam7:hover:after {
-	background: linear-gradient(130deg, var(--gradient-color1) 0%, var(--gradient-color2) 100%);
+	background: linear-gradient(var(--gradient-direction), var(--gradient-color1) 0%, var(--gradient-color2) 100%);
 	opacity: 0.1;
 }
 
@@ -106,6 +106,6 @@
 }
 .wrapper-1ucjTd:hover .content-3at_AU:before {
 	opacity: 0.1;
-	background: linear-gradient(130deg, var(--gradient-color1) 0%, var(--gradient-color2) 100%);
+	background: linear-gradient(var(--gradient-direction), var(--gradient-color1) 0%, var(--gradient-color2) 100%);
 	transition: none;
 }
