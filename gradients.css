@@ -66,7 +66,7 @@
 
 /* categories */
 .members-1998pB .membersGroup-v9BXpm, /* member list roles */
-.sidebar-2K8pFh .containerDefault-3GGEv_ .wrapper-CU3qI5 .name-IbjUBS, /*channel categories */
+.sidebar-2K8pFh .containerDefault-3tr_sE .wrapper-PY0fhH .name-3l27Hl, /*channel categories */
 .headerText-2F0828, /* dm catergory */
 .discoverHeader-1TWTqG {
 	background-image: linear-gradient(to right, var(--gradient-color1) 0%, var(--gradient-color2) 100%);
@@ -74,13 +74,13 @@
 	-webkit-text-fill-color: transparent;
 }
 .members-1998pB .membersGroup-v9BXpm:before,
-.name-IbjUBS:before,
+.name-3l27Hl:before,
 .privateChannelsHeaderContainer-3NB1K1:before,
 .discoverHeader-1TWTqG:before {
 	background: linear-gradient(to left, var(--gradient-color1) 50%, transparent);
 }
 .members-1998pB .membersGroup-v9BXpm:after,
-.name-IbjUBS:after,
+.name-3l27Hl:after,
 .privateChannelsHeaderContainer-3NB1K1:after,
 .discoverHeader-1TWTqG:after {
 	background: linear-gradient(var(--gradient-direction), var(--gradient-color2) 50%, transparent);
@@ -107,4 +107,5 @@
 .wrapper-2jXpOf:hover .content-1x5b-n:before {
 	opacity: 0.1;
 	background: linear-gradient(var(--gradient-direction), var(--gradient-color1) 0%, var(--gradient-color2) 100%);
+	transition: none;
 }
