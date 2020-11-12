@@ -104,8 +104,7 @@
 .wrapper-2jXpOf.modeUnread-1qO3K1:hover .content-1x5b-n .mainContent-u_9PKf .icon-1DeIlz {
 	-webkit-text-fill-color: #fff;
 }
-.wrapper-2jXpOf:hover .content-1x5b-n {
+.wrapper-2jXpOf:hover .content-1x5b-n:before {
 	opacity: 0.1;
 	background: linear-gradient(var(--gradient-direction), var(--gradient-color1) 0%, var(--gradient-color2) 100%);
-	transition: none;
 }
