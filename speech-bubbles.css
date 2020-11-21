@@ -4,7 +4,13 @@
  * @version 1.0.0
  */
 
-
+ 
+/* OPTIONAL
+:root {
+    --bubble-color: #fff;
+    --bubble-hover-color: #fff:
+} 
+*/
 
 .cozyMessage-3V1Y8y.groupStart-23k01U:not(.systemMessage-1I9LCe) {
     margin-top: 20px;
@@ -18,7 +24,7 @@
 .cozyMessage-3V1Y8y:not(.systemMessage-1I9LCe) .messageContent-2qWWxC, .cozyMessage-3V1Y8y:not(.systemMessage-1I9LCe) .container-1ov-mD {
 	width: fit-content;
 	max-width: 90%;
-    background-color: hsla(0, 0%, 100%, 0.1);
+    background-color: var(--bubble-color,hsla(0, 0%, 100%, 0.1));
     padding: 7px;
 	border-radius: 0 5px 5px 5px;
 	margin-top: 5px;
@@ -35,13 +41,13 @@
     top: 7px;
 }
 .cozyMessage-3V1Y8y.groupStart-23k01U .contents-2mQqc9:before {
-	top: 34px;
+	top: 33.5px;
 }
 .cozyMessage-3V1Y8y .repliedMessage-VokQwo + .contents-2mQqc9:before {
-	top: 74px
+	top: 73.5px
 }
 .cozyMessage-3V1Y8y:hover .messageContent-2qWWxC, .cozyMessage-3V1Y8y:hover .container-1ov-mD, .cozyMessage-3V1Y8y:hover .contents-2mQqc9:before {
-    background-color: hsla(0, 0%, 100%, 0.15);
+    background-color: var(--bubble-hover-color, hsla(0, 0%, 100%, 0.15));
 }
 .cozyMessage-3V1Y8y:not(.systemMessage-1I9LCe) .buttonContainer-DHceWr {
     top: 24px
