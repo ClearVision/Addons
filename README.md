@@ -16,7 +16,7 @@
 </ol>
 <br><hr><br>
 <h2>Speech Bubbles</h2>
-<p>Displays chat as speech bubbbles</p>
+<p>Displays text in chat as speech bubbbles</p>
 <h3>Usage</h3>
 <ol>
   <li>Copy and paste <code>@import url(https://clearvision.github.io/Addons/speech-bubbles.css);</code> below the other imports</li>
