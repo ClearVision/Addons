@@ -14,7 +14,7 @@
     --gradient-direction: 130deg; /* angle of gradient [default: 130deg] */</code></pre></li>
   <li>Change the values to customize it and you're done</li>
 </ol>
-<br><hr><br>
+<br>
 <h2>Speech Bubbles</h2>
 <p>Displays text in chat as speech bubbbles</p>
 <h3>Usage</h3>
