@@ -12,5 +12,17 @@
     --gradient-color1: var(--main-color); /* primary color [default: var(--main-color) */
     --gradient-color2: var(--hover-color); /* secondary color [default: var(--hover-color) */
     --gradient-direction: 130deg; /* angle of gradient [default: 130deg] */</code></pre></li>
-  <li>Change the values to customize it and you're done
+  <li>Change the values to customize it and you're done</li>
 </ol>
+<br><hr><br>
+<h2>Speech Bubbles</h2>
+<p>Displays chat as speech bubbbles</p>
+<h3>Usage</h3>
+<ol>
+  <li>Copy and paste <code>@import url(https://clearvision.github.io/Addons/speech-bubbles.css);</code> below the other imports</li>
+  <li><b>Optional:</b> to change the colors add the following at the bottom inside of root: 
+    <pre><code>/* Speech Bubbbles */
+    --bubble-color: #fff;
+    --bubble-hover-color: #fff:</code></pre></li>
+</ol>
+
