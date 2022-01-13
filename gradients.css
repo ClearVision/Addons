@@ -20,26 +20,78 @@
 */
 
 
-/* backgrounds */
 .wrapper-3kah-n:hover .childWrapper-1j_1ub, .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, /* server icons, default home icon*/
-.circleIconButton-jET_ig:hover, .circleIconButton-jET_ig.selected-ugP_am, /* add server, explore public server */
-.layer-86YKbF .standardSidebarView-E9Pc3j .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.selected-g-kMVV:after, /* selected tab in user/server/channel settings */
-.standardSidebarView-E9Pc3j .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[style*="color: rgb(255, 255, 255)"]::after, /* subscriptions, server boost status */
-.privateChannels-oVe7HL .channel-1Shao0.selected-1-Z6gm .layout-1qmrhw:after, /*selected tabs in home, dms */
-.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG, /* discover tab */
-.wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ:after, /* selected channel */
-.unread-2wipsx:after, .mention-3XBnnZ:after, /* unread channels bar */
-.menu-1QACrS:not(#status-picker) .colorDefault-CDqZdO.focused-3qFvc8, .menu-1QACrS:not(#status-picker) .colorDefault-CDqZdO:hover:not(.hideInteraction-2jPGL_), /* dropdown menu */
-.appMount-2yBXZl .lookFilled-1Gx00P.colorGreen-29iAKY, .appMount-2yBXZl .lookFilled-1Gx00P.colorBrand-3pXr91, .appMount-2yBXZl .lookFilled-1Gx00P.colorPrimary-3b3xI6, /* buttons */ 
-.appMount-2yBXZl .lookFilled-1Gx00P.colorGreen-29iAKY:disabled, .appMount-2yBXZl .lookFilled-1Gx00P.colorPrimary-3b3xI6:disabled, /* disabled buttons */
-.lookInverted-2D7oAl, .lookInverted-2D7oAl.colorBrand-3pXr91, .lookInverted-2D7oAl.colorGreen-29iAKY, /* more buttons */
-.container-ZMc96U .topPill-3DJJNV .item-3XjbnG.selected-g-kMVV.themed-2-lozF, /* home page sub tabs */
-.newMessagesBar-1hF-9G:before, /* new message bar */
-.jumpToPresentBar-1cEnH0:hover /* jump to present bar */ {
-	background: linear-gradient(var(--gradient-direction), var(--gradient-color1) 0%, var(--gradient-color2) 100%) !important;
+.theme-dark .footer-31IekZ .button-38aScr,
+.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG,/* discover tab */
+.unread-2wipsx:after,.mention-3XBnnZ:after,/* unread channels bar */
+.menu-1QACrS:not(#status-picker) .colorDefault-CDqZdO.focused-3qFvc8,.menu-1QACrS:not(#status-picker) .colorDefault-CDqZdO:hover:not(.hideInteraction-2jPGL_),/* dropdown menu */
+.appMount-2yBXZl .lookFilled-1Gx00P.colorGreen-29iAKY:disabled,.appMount-2yBXZl .lookFilled-1Gx00P.colorPrimary-3b3xI6:disabled,/* disabled buttons */
+.lookInverted-2D7oAl,.lookInverted-2D7oAl.colorBrand-3pXr91,.lookInverted-2D7oAl.colorGreen-29iAKY,/* more buttons */
+.appMount-2yBXZl .lookFilled-yCfaCM.colorGreen-3y-Z79, .appMount-2yBXZl .lookFilled-yCfaCM.colorGrey-2iAG-B, .appMount-2yBXZl .lookFilled-yCfaCM.colorBrand-I6CyqQ, .appMount-2yBXZl .lookFilled-yCfaCM.colorBrandNew-g5lmBU, .appMount-2yBXZl .lookFilled-yCfaCM.colorBrandNew-2-gGsS, .appMount-2yBXZl .lookFilled-yCfaCM.colorPrimary-2AuQVo,/* buttons for days */
+.newMessagesBar-1hF-9G:before,/* new message bar */
+.jumpToPresentBar-1cEnH0:hover,/* jump to present bar */
+.privateChannels-oVe7HL .channel-1Shao0.selected-1-Z6gm .layout-1qmrhw:after,
+.popout-3gby1q .tag-15zcD_,
+.tab-2j5AEF.selected-2LAck8:after,
+.layer-2aCOJ3 .themedPopout-1TrfdI .header-1w9Q93,
+I6,
+.acronym-2zrAHN,.acronym-2zrAHN:hover,
+.circleIconButton-3lUBQk:hover,.circleIconButton-3lUBQk.selected-2tb4pB,
+.circleIconButton-1VxDrg:hover,.circleIconButton-1VxDrg.selected-2r1Hvo,
+.modeSelected-3DmyhH .content-1gYQeQ,
+.wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ:after,
+.container-ZMc96U .topPill-3DJJNV .item-3XjbnG.selected-g-kMVV.themed-2-lozF,
+.standardSidebarView-E9Pc3j .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.selected-g-kMVV,
+.layer-86YKbF .standardSidebarView-E9Pc3j .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.selected-g-kMVV:after,
+.item-2idW98[style*="background-color"],
+.selected-18Wszc.option-1QI4c9,
+.chat-2ZfjoI .divider-3gKybi.dividerRed-MKoLlr:before,
+.tab-2j5AEF.selected-2LAck8, /*Search buttons*/
+.uploadModalIn-2w48Zf .uploadDropModal-13Kd20 .bgScale-1iWuPF,
+.theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover,
+.unread-2wipsx:active,.unread-2wipsx:hover,/*New Unreads bar*/
+.standardSidebarView-E9Pc3j .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.selected-g-kMVV:after,.standardSidebarView-E9Pc3j .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[style*="color: rgb(255,255,255)"]:after,/* selected things */
+.item-2idW98[aria-checked=true] .radioBar-3w9XY-,/*Voice Settings: Input Mode*/
+.navButtonActive-1EqC5l,/*New emote popup button*/
+.item-3XjbnG.selected-g-kMVV, /*Role settings*/
+.container-3EtAkD, /*Default @everyone permissions in server settings*/
+.avatarUploaderIndicator-2G-aIZ, /*Image upload button in settings*/
+.standardSidebarView-E9Pc3j .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[style*="color: rgb(255, 255, 255)"],/*Subscriptions settings tab*/
+.unicodeShortcut-3N8oDe,/*Shortcut in emote list*/
+.tabBar-2hXqzU > .item-3XjbnG:after,/*User Modal Tabs when doing an activity*/
+.colorable-3rVGna.white-11auuQ, /*Vc mute button*/
+.lookFilled-1Gx00P.colorGrey-2DXtkV,
+.lookGhost-2Fn_0-.colorGrey-2DXtkV /*Voice Settings: Shortcut bind*/
+{
+  background-image: linear-gradient(var(--gradient-direction),var(--gradient-color1),var(--gradient-color2)) !important;
+  background-color: var(--main-color);
 }
-
-
+.members-3WRCEx .membersGroup-2eiWxl,
+.sidebar-1tnWFu .containerDefault-3TQ5YN .wrapper-1S43wv .name-3BUDLf .overflow-1wOqNV,/*Thx Addy*/
+.headerText-1qIDDT, /* dm categories */
+.discoverHeader-1TWTqG, 
+.header-2Kx1US
+{
+  background-image: linear-gradient(var(--gradient-direction),var(--gradient-color1),var(--gradient-color2)) !important;
+  -webkit-background-clip: text;
+  color: transparent !important;
+}
+.members-3WRCEx .membersGroup-2eiWxl:before,
+.name-3BUDLf:before,
+.privateChannelsHeaderContainer-1UWASm:before,
+.discoverHeader-1TWTqG:before,
+.sidebar-nqHbhN .header-2Kx1US:before /*Settings bars*/
+{
+  background: linear-gradient(to left,var(--gradient-color1) 50%,transparent) !important;
+}
+.members-3WRCEx .membersGroup-2eiWxl:after,
+.name-3BUDLf:after,
+.privateChannelsHeaderContainer-1UWASm:after,
+.discoverHeader-1TWTqG:after,
+.sidebar-nqHbhN .header-2Kx1US:after /*Settings bars*/
+{
+  background: linear-gradient(to right,var(--gradient-color1) 50%,transparent) !important;
+}
 
 /* mentioned bg */
 .mentioned-Tre-dv, .mouse-mode.full-motion .mentioned-Tre-dv:hover {
@@ -60,52 +112,4 @@
 .mentioned-Tre-dv:hover:after {
 	background: linear-gradient(var(--gradient-direction), var(--gradient-color1) 0%, var(--gradient-color2) 100%);
 	opacity: 0.1;
-}
-
-
-
-/* categories */
-.members-3WRCEx .membersGroup-2eiWxl, /* member list roles */
-.sidebar-1tnWFu .containerDefault-3TQ5YN .wrapper-1S43wv .name-3BUDLf .overflow-1wOqNV, /*channel categories */
-.headerText-1qIDDT, /* dm catergory */
-.discoverHeader-1TWTqG {
-	background-image: linear-gradient(to right, var(--gradient-color1) 0%, var(--gradient-color2) 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-.members-3WRCEx .membersGroup-2eiWxl:before,
-.name-3BUDLf:before,
-.privateChannelsHeaderContainer-1UWASm:before,
-.discoverHeader-1TWTqG:before {
-	background: linear-gradient(to left, var(--gradient-color1) 50%, transparent);
-}
-.members-3WRCEx .membersGroup-2eiWxl:after,
-.name-3BUDLf:after,
-.privateChannelsHeaderContainer-1UWASm:after,
-.discoverHeader-1TWTqG:after {
-	background: linear-gradient(var(--gradient-direction), var(--gradient-color2) 50%, transparent);
-}
-
-.privateChannelRecipientsInviteButtonIcon-1ObKXK /* dm '+' symbol */ {
-	color: var(--gradient-color2) !important;
-}
-
-
-
-/* Unread channel hover bg */
-.wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ .mainContent-20q_Hp .icon-2W8DHg {
-	color: var(--gradient-color1);
-}
-.wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ .mainContent-20q_Hp .icon-2W8DHg {
-	background-image: linear-gradient(var(--gradient-direction), var(--gradient-color1) 0%, var(--gradient-color2) 40%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-.wrapper-NhbLHG.modeUnread-3Cxepe:hover .content-1gYQeQ .mainContent-20q_Hp .icon-2W8DHg {
-	-webkit-text-fill-color: #fff;
-}
-.wrapper-NhbLHG:hover .content-1gYQeQ:before {
-	opacity: 0.1;
-	background: linear-gradient(var(--gradient-direction), var(--gradient-color1) 0%, var(--gradient-color2) 100%);
-	transition: none;
 }
