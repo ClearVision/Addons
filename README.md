@@ -25,4 +25,10 @@
     --bubble-color: #fff;
     --bubble-hover-color: #fff:</code></pre></li>
 </ol>
-
+<h2>Old Discord Font</h2>
+<p>Use the old discord font, Whitney</p>
+<h3>Usage</h3>
+<ol>
+  <li>Copy and paste <code>@import url(https://clearvision.github.io/Addons/whitney.css);</code> below the other imports</li>
+  <li>Now, change your main-font back to Whitney (this looks like <code>--main-font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;</code>)</li>
+</ol>
