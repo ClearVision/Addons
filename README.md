@@ -26,7 +26,7 @@
     --bubble-hover-color: #fff:</code></pre></li>
 </ol>
 <h2>Old Discord Font</h2>
-<p>Use the old discord font, Whitney. Maintained by Nyx, credit to @Overimagine1 for providing the correct weight values. I am not using original discord css for this, but I did take the original weights from his repo.</p>
+<p>Use the old discord font, Whitney. Maintained by Nyx, credit to @Overimagine1 for providing the new version of files and script. The old clearvision whitney script is obsolete due to missing characters</p>
 <h3>Usage</h3>
 <ol>
   <li>Copy and paste <code>@import url(https://clearvision.github.io/Addons/whitney.css);</code> below the other imports</li>
