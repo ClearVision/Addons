@@ -2,7 +2,7 @@
 <p>Addons created for Clearvision theme. Might not work properly with other themes</p>
 
 <h2>Gradients</h2>
-<p>Adds gradients to various parts of the theme to make it more colourful</p>
+<p>Adds gradients to various parts of the theme to make it more colourful. Maintained by Nyx.</p>
 
 <h3>Usage</h3>
 <ol>
@@ -16,7 +16,7 @@
 </ol>
 <br>
 <h2>Speech Bubbles</h2>
-<p>Displays text in chat as speech bubbbles</p>
+<p>Displays text in chat as speech bubbbles. Maintained by Leo</p>
 <h3>Usage</h3>
 <ol>
   <li>Copy and paste <code>@import url(https://clearvision.github.io/Addons/speech-bubbles.css);</code> below the other imports</li>
@@ -26,7 +26,7 @@
     --bubble-hover-color: #fff:</code></pre></li>
 </ol>
 <h2>Old Discord Font</h2>
-<p>Use the old discord font, Whitney</p>
+<p>Use the old discord font, Whitney. Maintained by Nyx, credit to @Overimagine1 for providing the correct weight values. I am not using original discord css for this, but I did take the original weights from his repo.</p>
 <h3>Usage</h3>
 <ol>
   <li>Copy and paste <code>@import url(https://clearvision.github.io/Addons/whitney.css);</code> below the other imports</li>
