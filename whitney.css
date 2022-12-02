@@ -1,50 +1,62 @@
 @font-face{
-  font-family: Whitney;
-  font-style: normal;
-  font-weight: 300;
-  src: url(https://cdn.glitch.com/ec49dcb2-f55b-45c7-95be-e51f466e2cff%2Fwhitneylight.woff?v=1610494283298) format("woff")
+    font-family:Whitney;
+    font-style:normal;
+    font-weight:300;
+    src:url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/46933da896ba96126074286056614542.woff2) format("woff2")
 }
 @font-face{
-  font-family: Whitney;
-  font-style: italic;
-  font-weight: 300;
-  src: url(https://cdn.glitch.com/ec49dcb2-f55b-45c7-95be-e51f466e2cff%2Fwhitneylightitalic.woff?v=1610494283680) format("woff")
+    font-family:Whitney;
+    font-style:italic;
+    font-weight:300;
+    src:url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/1651ce6325c0da043476ace0bec3971b.woff2) format("woff2")
 }
 @font-face{
-  font-family: Whitney;
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://cdn.glitch.com/ec49dcb2-f55b-45c7-95be-e51f466e2cff%2Fwhitneybook.woff?v=1610494282898) format("woff")
+    font-family:Whitney;
+    font-style:normal;
+    font-weight:400;
+    src:url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/24bda95d153a319704c33329f3ab84bb.woff2) format("woff2")
 }
 @font-face{
-  font-family: Whitney;
-  font-style: italic;
-  font-weight: 400;
-  src: url(https://cdn.glitch.com/ec49dcb2-f55b-45c7-95be-e51f466e2cff%2Fwhitneybookitalic.woff?v=1610494283334) format("woff")
+    font-family:Whitney;
+    font-style:italic;
+    font-weight:400;
+    src:url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/7f18f1d5ab6ded7cf71bbc1f907ee3d4.woff2) format("woff2")
 }
 @font-face{
-  font-family: Whitney;
-  font-style: normal;
-  font-weight: 500;
-  src: url(https://cdn.glitch.com/ec49dcb2-f55b-45c7-95be-e51f466e2cff%2Fwhitneymedium.woff?v=1610494284187) format("woff")
+    font-family:Whitney;
+    font-style:normal;
+    font-weight:500;
+    src:url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/cf4a8a10bbdf9b775fad41e0b9921c84.woff2) format("woff2")
 }
 @font-face{
-  font-family: Whitney;
-  font-style: italic;
-  font-weight: 500;
-  src: url(https://cdn.glitch.com/ec49dcb2-f55b-45c7-95be-e51f466e2cff%2Fwhitneymediumitalic.woff?v=1610494284817) format("woff")
+    font-family:Whitney;
+    font-style:italic;
+    font-weight:500;
+    src:url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/9cfa747e897c772d25efd8e4a42a005e.woff2) format("woff2")
 }
 @font-face{
-  font-family: Whitney;
-  font-style: normal;
-  font-weight: 600;
-  src: url(https://cdn.glitch.com/ec49dcb2-f55b-45c7-95be-e51f466e2cff%2FWhitneySemiboldItalic.woff?v=1610494286027) format("woff")
+    font-family:Whitney;
+    font-style:normal;
+    font-weight:600;
+    src:url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/f9e7047f6447547781512ec4b977b2ab.woff2) format("woff2")
 }
 @font-face{
-  font-family: Whitney;
-  font-style: italic;
-  font-weight: 600;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/21070f52a8a6a61edef9785eaf303fb8.woff2) format("woff2")
+    font-family:Whitney;
+    font-style:italic;
+    font-weight:600;
+    src:url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/21070f52a8a6a61edef9785eaf303fb8.woff2) format("woff2")
+}
+@font-face{
+    font-family:Whitney;
+    font-style:normal;
+    font-weight:700;
+    src:url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/f9c8fcfa7dcc5d6a291a6ebbe3bb847e.woff2) format("woff2")
+}
+@font-face{
+    font-family:Whitney;
+    font-style:italic;
+    font-weight:700;
+    src:url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/5e1649183589023fb24667a369af585d.woff2) format("woff2")
 }
 @font-face {
   font-family: Whitney;
