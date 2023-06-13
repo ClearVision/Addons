@@ -64,3 +64,7 @@
   font-weight: 700;
   src: url(https://cdn.glitch.com/ec49dcb2-f55b-45c7-95be-e51f466e2cff%2Fwhitneybold.woff?v=1610494282762) format("woff")
 }
+
+:root{
+    --font-primary: var(--main-font);
+}
