@@ -82,13 +82,13 @@
   color: transparent !important;
 }
 
-.members__9f47b .membersGroup__85843:not([style*="color: rgb"]) span:before,
+.members__9f47b .membersGroup__85843:not([style*="color: rgb"]):before,
 .sidebar_ded4b5 .containerDefault__23a29 .wrapper__9c483 .name__590d6:before,
 .privateChannels__93473 .privateChannelsHeaderContainer_ddcec6:before,
 .sidebar__9e3e2 .header_f72511:before {
   background: linear-gradient(to left, var(--gradient-color1) 50%, transparent) !important;
 }
-.members__9f47b .membersGroup__85843:not([style*="color: rgb"]) span:after,
+.members__9f47b .membersGroup__85843:not([style*="color: rgb"]):after,
 .sidebar_ded4b5 .containerDefault__23a29 .wrapper__9c483 .name__590d6:after,
 .privateChannels__93473 .privateChannelsHeaderContainer_ddcec6:after,
 .sidebar__9e3e2 .header_f72511:after {
