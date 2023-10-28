@@ -18,6 +18,7 @@
 }
 
 */
+
 /* ### Gradients for Clearvision v6.3.0 by Nyx ### */
 .bd-toast,
 .link__95dc0:after,
@@ -68,8 +69,7 @@
 .friendRequestsButton_f19806,
 .item__48dda.selected__5711d:after,
 .css-153nlb6-option,
-.iconContainer__6fc72,
-.wrapper_f46140 {
+.iconContainer__6fc72 {
   background: linear-gradient(var(--gradient-direction), var(--gradient-color1), var(--gradient-color2)) !important;
 }
 
