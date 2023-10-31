@@ -1,3 +1,24 @@
+/**
+ * @name ClearVision Add-on: Whitney
+ * @author ClearVision Team
+ * @version 1.0.0
+ * @description Whitney Font import
+ * @source https://github.com/ClearVision/Addons
+ * @website https://clearvision.gitlab.io
+ * @invite 2fKpjAR
+ */
+
+/*
+Although this theme is designed for Clearvision-v6, it is applicable to every other theme. We have already set --font-primary for you. 
+If you are using another theme, you may want to set your font in whatever font variable is provided to you as well
+
+Add the contents of the root below into the root of of your theme file or copy the entire root below into the bottom of your theme
+Copy and paste @import url(https://clearvision.github.io/Addons/whitney.css); below the other imports
+Now, change your main-font back to Whitney (this looks like 
+    --main-font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif; 
+in ClearVision)
+*/
+
 @font-face{
     font-family:Whitney;
     font-style:normal;
