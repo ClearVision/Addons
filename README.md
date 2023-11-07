@@ -1,6 +1,18 @@
 # Clearvision Addons
 <p>Addons created for Clearvision theme. Might not work properly with other themes</p>
 
+<h2>Transparency</h2>
+<p>Makes your Discord transparent. Maintained by Nyx.</p>
+
+<h3>Usage</h3>
+<ol>
+  <li>Copy and paste <code>@import url(https://clearvision.github.io/Addons/transparency);</code> below the other imports</li>
+  <li>Change your --background-image variable to <code>transparent</code>: 
+    <pre><code>--background-image: transparent; /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]</code></pre></li>
+  <li>Make sure to toggle the background transparency toggle in BetterDiscord settings if you are on that, or any other relevant toggle if you are on another injector that supports transparency.</li>
+</ol>
+<br>
+
 <h2>Gradients</h2>
 <p>Adds gradients to various parts of the theme to make it more colourful. Maintained by Nyx.</p>
 
