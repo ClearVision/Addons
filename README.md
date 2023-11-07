@@ -6,7 +6,7 @@
 
 <h3>Usage</h3>
 <ol>
-  <li>Copy and paste <code>@import url(https://clearvision.github.io/Addons/transparency);</code> below the other imports</li>
+  <li>Copy and paste <code>@import url(https://clearvision.github.io/Addons/transparency.css);</code> below the other imports</li>
   <li>Change your --background-image variable to <code>transparent</code>: 
     <pre><code>--background-image: transparent; /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]</code></pre></li>
   <li>Make sure to toggle the background transparency toggle in BetterDiscord settings if you are on that, or any other relevant toggle if you are on another injector that supports transparency.</li>
