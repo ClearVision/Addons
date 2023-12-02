@@ -12,39 +12,37 @@
 } 
 */
 
-.cozyMessage-3V1Y8y.groupStart-23k01U:not(.systemMessage-1I9LCe) {
-    margin-top: 20px;
+.cozy_f5c119 .messageContent__21e69 {
+  width: fit-content;
+  max-width: 80%;
+  background-color: var(--bubble-color,hsla(0, 0%, 100%, 0.1));
+  padding: 7px;
+  border-radius: 0 10px 10px 10px;
+  margin-top: 5px;
+  margin-left: 0px;
 }
-.divider-JfaTT5 + .cozyMessage-3V1Y8y.groupStart-23k01U:not(.systemMessage-1I9LCe) {
-	margin-top: 1.0625rem;
+
+/* TEXT + EMBEDS */
+.cozy_f5c119 .contents_f41bb2:has(+.container_dbadf5 :is(.mediaAttachmentsContainer_edba75, .embedWrapper_c143d9)) .messageContent__21e69 {
+  width: 100%;
+  border-radius: 0 10px 0px 0px;
 }
-.cozyMessage-3V1Y8y:not(.systemMessage-1I9LCe)  .header-23xsNx {
-    margin-bottom: 10px;
+  .cozy_f5c119 .container_dbadf5:has(:is(.mediaAttachmentsContainer_edba75, .embedWrapper_c143d9)) {
+  width: 80%;
+  background-color: var(--bubble-color,hsla(0, 0%, 100%, 0.1));
+  border-radius: 0 0 10px 10px;
+  padding: 7px;
 }
-.cozyMessage-3V1Y8y:not(.systemMessage-1I9LCe) .messageContent-2qWWxC, .cozyMessage-3V1Y8y:not(.systemMessage-1I9LCe) .container-1ov-mD {
-	width: fit-content;
-	max-width: 90%;
-    background-color: var(--bubble-color,hsla(0, 0%, 100%, 0.1));
-    padding: 7px;
-	border-radius: 10px;
-	margin-top: 5px;
-	margin-left: 0px;
+
+/* JUST EMBEDS */
+.cozy_f5c119:not(:has(.messageContent__21e69 span)) .container_dbadf5:has(:is(.mediaAttachmentsContainer_edba75, .embedWrapper_c143d9)) {
+  border-radius: 0 10px 10px 10px;
+  max-width: fit-content;
 }
-.cozyMessage-3V1Y8y.groupStart-23k01U:not(.systemMessage-1I9LCe) .messageContent-2qWWxC {
-	border-top-left-radius: 0px;
-}
-.cozyMessage-3V1Y8y:hover .messageContent-2qWWxC, .cozyMessage-3V1Y8y:hover .container-1ov-mD {
-    background-color: var(--bubble-hover-color, hsla(0, 0%, 100%, 0.15));
-}
-.cozyMessage-3V1Y8y:not(.systemMessage-1I9LCe) .buttonContainer-DHceWr {
-    top: 24px
-}
-.cozyMessage-3V1Y8y:not(.systemMessage-1I9LCe).groupStart-23k01U .buttonContainer-DHceWr {
-    top: 48px
-}
-.embedSuppressButton-1FonMn {
-	right: 0;
-}
-.markup-2BOw-j blockquote, .markup-2BOw-j pre {
-	max-width: 100%;
+
+/* REPLYING TO MESSAGE */
+.cozy_f5c119 .repliedTextContent__75526.messageContent__21e69 {
+  max-width: fit-content ;
+  border-radius: 10px;
+  padding: 5px;
 }
