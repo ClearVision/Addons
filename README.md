@@ -27,8 +27,16 @@
   <li>Change the values to customize it and you're done</li>
 </ol>
 <br>
-<h2>Speech Bubbles</h2>
-<p>Displays text in chat as speech bubbbles. Maintained by Leo</p>
+<h2>Old Discord Font</h2>
+<p>Use the old discord font, Whitney. Maintained by Nyx, credit to @Overimagine1 for providing the new version of files and script. The old clearvision whitney script is obsolete due to missing characters</p>
+<h3>Usage</h3>
+<ol>
+  <li>Copy and paste <code>@import url(https://clearvision.github.io/Addons/whitney.css);</code> below the other imports</li>
+  <li>Now, change your main-font back to Whitney (this looks like <code>--main-font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;</code>)</li>
+</ol>
+<br>
+<h2>Speech Bubbles - DEPRECATED</h2>
+<p>Displays text in chat as speech bubbbles. <s>Maintained by Leo</s></p>
 <h3>Usage</h3>
 <ol>
   <li>Copy and paste <code>@import url(https://clearvision.github.io/Addons/speech-bubbles.css);</code> below the other imports</li>
@@ -37,10 +45,4 @@
     --bubble-color: #fff;
     --bubble-hover-color: #fff:</code></pre></li>
 </ol>
-<h2>Old Discord Font</h2>
-<p>Use the old discord font, Whitney. Maintained by Nyx, credit to @Overimagine1 for providing the new version of files and script. The old clearvision whitney script is obsolete due to missing characters</p>
-<h3>Usage</h3>
-<ol>
-  <li>Copy and paste <code>@import url(https://clearvision.github.io/Addons/whitney.css);</code> below the other imports</li>
-  <li>Now, change your main-font back to Whitney (this looks like <code>--main-font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;</code>)</li>
-</ol>
+
