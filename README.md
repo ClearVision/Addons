@@ -35,8 +35,8 @@
   <li>Now, change your main-font back to Whitney (this looks like <code>--main-font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;</code>)</li>
 </ol>
 <br>
-<h2>Speech Bubbles - DEPRECATED</h2>
-<p>Displays text in chat as speech bubbbles. <s>Maintained by Leo</s></p>
+<h2>Speech Bubbles </h2>
+<p>Displays text in chat as speech bubbbles. Maintained by Leozard ★</p>
 <h3>Usage</h3>
 <ol>
   <li>Copy and paste <code>@import url(https://clearvision.github.io/Addons/speech-bubbles.css);</code> below the other imports</li>
