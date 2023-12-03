@@ -15,8 +15,8 @@
 .cozy_f5c119 .messageContent__21e69 {
 	width: fit-content;
 	max-width: 80%;
-    background-color: var(--bubble-color,hsla(0, 0%, 100%, 0.1));
-    padding: 10px;
+  background-color: var(--bubble-color,hsla(0, 0%, 100%, 0.1));
+  padding: 10px;
 	border-radius: 0 10px 10px 10px;
 	margin-top: 5px;
 	margin-left: 0px;
@@ -51,8 +51,9 @@
 
 
 /* TEXT + EMBEDS */
-.cozy_f5c119:has(.messageContent__21e69 span) .container_dbadf5:has(:is(.mediaAttachmentsContainer_edba75, .embedWrapper_c143d9, .invite__2a93b)) {
+.cozy_f5c119:has(.messageContent__21e69 span) .container_dbadf5:has(:is(.mediaAttachmentsContainer_edba75, .embedWrapper_c143d9, .invite__2a93b))::before {
 	max-width: 60%;
+	border-radius: 0 0 10px 10px;
 }
 .cozy_f5c119 .contents_f41bb2:has(+ .container_dbadf5 :is(.mediaAttachmentsContainer_edba75, .embedWrapper_c143d9, .invite__2a93b)) .messageContent__21e69 {
 	width: 60%;
