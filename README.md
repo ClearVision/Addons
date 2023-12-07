@@ -1,11 +1,12 @@
 # Clearvision Addons
 
-Addons created for Clearvision theme. Might not work properly with other themes
+Addons created for Clearvision theme. Some might not work properly with other themes, but they should work for most.
 
 Transparency
 ------------
 
 Makes your Discord transparent. Maintained by Nyx.
+Note: This __**REQUIRES**__ your injector to support transparency. If you are a **Vencord** user, you don't have this! It won't work until Ven adds this as a feature. There is an experimental toggle in the console, but you will have to join their support server and ask for it. Similarly, if you are using any other injector, you may not have access to transparency. BetterDiscord and Replugged are the 2 clients we provide direct support for that also have transparency.
 
 ### Usage
 
