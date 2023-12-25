@@ -60,19 +60,18 @@
 .picker__6dca7 .soundButton__5ad7b,
 .picker__6dca7 .categoryIcon__7b2ea.selected__532c1,
 .category__2d800.activeCategory_acadca,
-.uploadInput_bbab2f,
+.uploadIcon_fe2ad4,
 .content__30de8 .categoryFadeBlurple_e73c11:after,
 .content__30de8 [style*="background-color:"].result_e1fc74,
 .tag__69d9d,
 .option_f70eea,
 .friendRequestsButton_f19806,
 .item__48dda.selected__5711d:after,
-.css-153nlb6-option,
 .iconContainer__6fc72 {
   background: linear-gradient(var(--gradient-direction), var(--gradient-color1), var(--gradient-color2)) !important;
 }
 
-.members__9f47b .membersGroup__85843:not([style*="color: rgb"]) span,
+.members__9f47b .membersGroup__85843:not([style*="color: rgb"], #MemberCount h3) span,
 .sidebar_ded4b5 .containerDefault__23a29 .wrapper__9c483 .name__590d6 .overflow__87fe8,
 .privateChannels__93473 .privateChannelsHeaderContainer_ddcec6 .headerText__051c0,
 .headerText__94c22 {
@@ -98,4 +97,3 @@
 .textBadge__45d79 {
   box-shadow: none !important;
 }
-
