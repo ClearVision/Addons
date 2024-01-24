@@ -4,8 +4,14 @@ Addons created for Clearvision theme. Some might not work properly with other th
 
 Support: [ClearVision Support Server](https://discord.gg/7pNUC9C)
 
-Transparency
-------------
+# Table of Contents
+- [Transparency](#transparency)
+- [Gradients](#gradients)
+- [Server Size](#server-size)
+- [Old Discord Font](#old-discord-font)
+- [Speech Bubbles](#speech-bubbles)
+
+# Transparency
 
 Makes your Discord transparent. Maintained by Nyx.
 Note: This **REQUIRES** your injector to support transparency. BetterDiscord, Replugged, and Vencord are the 3 clients we provide direct support for that also have transparency. If you are using any other injector, you may not have access to transparency.
@@ -26,8 +32,7 @@ Note: This **REQUIRES** your injector to support transparency. BetterDiscord, Re
 
 3.  Make sure to toggle the background transparency toggle in BetterDiscord settings if you are on that, or any other relevant toggle if you are on another injector that supports transparency.
 
-Gradients
----------
+# Gradients
 
 Adds gradients to various parts of the theme to make it more colourful. Maintained by Nyx.
 
@@ -50,8 +55,7 @@ Adds gradients to various parts of the theme to make it more colourful. Maintain
 
 3.  Change the values to customize it and you're done
 
-Server Size
----------
+# Server Size
 
 Adds a server size variable. Pings start to have a little trouble when you set the value lower than 48px, the discord default. Maintained by Nyx.
 
@@ -72,8 +76,7 @@ Adds a server size variable. Pings start to have a little trouble when you set t
 
 3.  Change the value to customize it and you're done
 
-Old Discord Font
-----------------
+# Old Discord Font
 
 Use the old discord font, Whitney. Maintained by Nyx, credit to @Overimagine1 for providing the new version of files and script. The old clearvision whitney script is obsolete due to missing characters
 
@@ -91,8 +94,7 @@ Use the old discord font, Whitney. Maintained by Nyx, credit to @Overimagine1 fo
     --main-font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
     ```
 
-Speech Bubbles
---------------
+# Speech Bubbles
 
 Displays text in chat as speech bubbbles. Maintained by Leozard ★
 
