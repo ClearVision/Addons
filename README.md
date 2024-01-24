@@ -50,6 +50,28 @@ Adds gradients to various parts of the theme to make it more colourful. Maintain
 
 3.  Change the values to customize it and you're done
 
+Server Size
+---------
+
+Adds a server size variable. Pings start to have a little trouble when you set the value lower than 48px, the discord default. Maintained by Nyx.
+
+### Usage
+
+1.  Copy and paste the following below the other imports
+
+    ```css
+    @import url(https://clearvision.github.io/Addons/serversize.css);
+    ```
+
+2.  Add the following at the bottom inside of root:
+
+    ```css
+    /* Server Size */
+    --server-size: 88px;
+    ```
+
+3.  Change the value to customize it and you're done
+
 Old Discord Font
 ----------------
 
