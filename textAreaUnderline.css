@@ -1,0 +1,60 @@
+/**
+ * @name ClearVision Add-on: Text Area Underline
+ * @author Randymations
+ * @version 1.0.0
+ * @description Dynamic text area underline on hover or focus
+ * @source https://github.com/ClearVision/Addons
+ * @website https://clearvision.github.io
+ * @invite 2fKpjAR
+ * @authorId 384167892012498944
+ */
+
+/*
+This theme is designed for Clearvision-v6 but is applicable to any other theme.
+
+If you are using ClearVision or another theme, copy and paste the following line below other imports:
+@import url(https://clearvision.github.io/Addons/textAreaUnderline.css);
+
+Additionally, if you are using a theme that is not ClearVision, copy the contents of root into your theme's root.
+
+If you are not using another theme, uncomment root.
+*/
+
+/*
+:root {
+    --main-color: var(--brand-experiment);
+    --background-color: var(--channeltextarea-background);
+} 
+*/
+
+.channelTextArea__56a36 {
+  background: var(--background-color, rgba(0, 0, 0, 0.6));
+  transition: all 0.15s ease-in-out;
+}
+
+.channelTextArea__56a36:focus-within {
+  box-shadow: none;
+}
+
+.channelTextArea__56a36:after {
+  display: block;
+  content: '';
+  border-bottom: 2px solid var(--main-color, var(--brand-experiment));
+  opacity: 0.5;
+  transform: scaleX(0);
+  transition: all 0.2s linear 0s;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.channelTextArea__56a36:hover:after {
+  opacity: 0.5;
+  transform: scaleX(0.5);
+}
+
+.channelTextArea__56a36:focus-within:after {
+  opacity: 1;
+  transform: scaleX(1);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
