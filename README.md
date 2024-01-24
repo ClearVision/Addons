@@ -90,7 +90,7 @@ Displays text in chat as speech bubbbles. Maintained by Leozard ★
     --bubble-hover-color: #fff:
     ```
 
-Text Area underline
+Text Area Underline
 -------------------
 
 Replaces the default text area outline with a dynamic underline on hover or focus. Maintained by Randymations.
