@@ -89,3 +89,18 @@ Displays text in chat as speech bubbbles. Maintained by Leozard ★
     --bubble-color: #fff;
     --bubble-hover-color: #fff:
     ```
+
+Text Area underline
+-------------------
+
+Replaces the default text area outline with a dynamic underline on hover or focus. Maintained by Randymations.
+
+### Usage
+
+1.  Copy and paste the following below the other imports
+
+    ```css
+    @import url(https://clearvision.github.io/Addons/textAreaUnderline.css);
+    ```
+
+2.  You're done! The color of the underline respects your `--main-color`.
