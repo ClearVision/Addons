@@ -20,6 +20,13 @@
 */
 
 /* ### Gradients for Clearvision v6.3.0 by Nyx ### */
+:root {
+  /* Gradients */
+  --gradient-color1: var(--main-color); /* primary color [default: var(--main-color) */
+  --gradient-color2: var(--hover-color); /* secondary color [default: var(--hover-color) */
+  --gradient-direction: 130deg; /* angle of gradient [default: 130deg] */
+}
+
 .bd-toast,
 .link__95dc0:after,
 .containerDragAfter__437c5:after,
@@ -97,3 +104,4 @@
 .textBadge__45d79 {
   box-shadow: none !important;
 }
+
