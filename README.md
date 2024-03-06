@@ -72,14 +72,14 @@ Adds a server size variable. Pings start to have a little trouble when you set t
 
     ```css
     /* Server Size */
-    --server-size: 88px;
+    --server-size: 48px;
     ```
 
 3.  Change the value to customize it and you're done
 
 # Old Discord Font
 
-Use the old discord font, Whitney. Maintained by Nyx, credit to @Overimagine1 for providing the new version of files and script. The old clearvision whitney script is obsolete due to missing characters
+Use the old discord font, Whitney. Maintained by Nyx, credit to @Overimagine1 for providing the new version of files and script. The old clearvision whitney script is obsolete due to missing characters. Note that this addon works just by importing the font, just like any other font import; thus if you have another font import that happens to have whitney, you don't need this.
 
 ### Usage
 
