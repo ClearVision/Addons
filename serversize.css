@@ -18,75 +18,75 @@
 
 /* ### Server Size for Clearvision v6.3.0 by Nyx ### */
 :root {
-  --server-size: 48px;
+  --server-size: 88px;
 }
 
 /*UNREAD/SELECTED INDICATOR*/
 /*wrapper*/
-.listItem_fa7b36 .wrapper__3670f {
+.listItem__48528 .wrapper_b4903b {
   height: var(--server-size);
 }
 
 /*actual color*/
-.listItem_fa7b36 .item_f9d377 {
+.listItem__48528 .item_f9d377 {
   width: calc(var(--server-size) * 0.25) !important;
   height: calc(var(--server-size) * 0.25) !important;
   margin-left: calc(var(--server-size) * -0.125);
 }
 
 /*currently selected*/
-.listItem_fa7b36 [style*="height: 40px"].item_f9d377 {
+.listItem__48528 [style*="height: 40px"].item_f9d377 {
   height: calc(var(--server-size) * 5 / 6) !important;
 }
 
 /*FOLDER/SERVER*/
 /*folder bg*/
-.expandedFolderBackground__1bec6 {
+.expandedFolderBackground_b1385f {
   width: calc(var(--server-size));
   left: calc(var(--server-size) * 0.25);
 }
 
 /*actual server icon*/
 /*first class is outer wrapper, second is svg image*/
-.listItem_fa7b36 .wrapper__3af0b,
-.listItem_fa7b36 .svg_ad7356 {
+.listItem__48528 .wrapper__9916c,
+.listItem__48528 .svg__34dd4 {
   height: calc(var(--server-size));
   width: var(--server-size);
 }
 
 /*height of overall containers*/
-.theme-dark .scroller__3d071 > div[style*="height: 56px;"] {
+.theme-dark .scroller_de945b > div[style*="height: 56px;"] {
   height: calc(var(--server-size) * 7 / 6) !important;
 }
 
 /*overall guilds container, individual items, and the wrapper*/
 /*oh and the unread indicator*/
-.unreadMentionsIndicatorTop_ada847, .unreadMentionsIndicatorBottom_fdb943,
-.wrapper_a7e7a8,
-.listItem_fa7b36,
-.wrapper_ed1dea {
+.unreadMentionsIndicatorTop__153ad, .unreadMentionsIndicatorBottom__9351c,
+.wrapper__216eb,
+.listItem__48528,
+.wrapper__832f2 {
   width: calc(var(--server-size) * 1.5);
 }
 
 /*the folder bg height lol*/
-.wrapper_ed1dea > ul[style*="height: "] {
+.wrapper__832f2 > ul[style*="height: "] {
   height: auto !important;
 }
 
 /*margins between servers*/
-.listItem_fa7b36 {
+.listItem__48528 {
   margin: 0 0 calc(var(--server-size) / 6);
 }
 
 /*ping icon*/
-.listItem_fa7b36 .numberBadge__50328,
-.listItem_fa7b36 .base__92a12 {
+.listItem__48528 .numberBadge__40d6f,
+.listItem__48528 .base__5ed84 {
   font-size: calc(var(--server-size) / 4);
   width: calc(var(--server-size) / 3) !important;
   height: calc(var(--server-size) / 3);
 }
 
 /*keep it round because border-radius 8 only works when the width is 16 lol*/
-.listItem_fa7b36 .baseShapeRound__95d0f {
+.listItem__48528 .baseShapeRound_c1de89 {
   border-radius: 100%;
 }
