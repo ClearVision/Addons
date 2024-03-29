@@ -27,16 +27,16 @@ If you are not using another theme, uncomment root.
 } 
 */
 
-.channelTextArea__56a36 {
+.channelTextArea__648e5 {
   background: var(--background-color, rgba(0, 0, 0, 0.6));
   transition: all 0.15s ease-in-out;
 }
 
-.channelTextArea__56a36:focus-within {
+.channelTextArea__648e5:focus-within {
   box-shadow: none;
 }
 
-.channelTextArea__56a36:after {
+.channelTextArea__648e5:after {
   display: block;
   content: '';
   border-bottom: 2px solid var(--main-color, var(--brand-experiment));
@@ -47,12 +47,12 @@ If you are not using another theme, uncomment root.
   margin-right: 4px;
 }
 
-.channelTextArea__56a36:hover:after {
+.channelTextArea__648e5:hover:after {
   opacity: 0.5;
   transform: scaleX(0.5);
 }
 
-.channelTextArea__56a36:focus-within:after {
+.channelTextArea__648e5:focus-within:after {
   opacity: 1;
   transform: scaleX(1);
   border-bottom-left-radius: 2px;
