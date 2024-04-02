@@ -5,33 +5,18 @@ Addons created for Clearvision theme. Some might not work properly with other th
 Support: [ClearVision Support Server](https://discord.gg/7pNUC9C)
 
 # Table of Contents
-- [Transparency](#transparency)
+- [Clearvision Addons](#clearvision-addons)
+- [Table of Contents](#table-of-contents)
 - [Gradients](#gradients)
+    - [Usage](#usage)
 - [Server Size](#server-size)
+    - [Usage](#usage-1)
 - [Old Discord Font](#old-discord-font)
+    - [Usage](#usage-2)
 - [Speech Bubbles](#speech-bubbles)
+    - [Usage](#usage-3)
 - [Text Area Underline](#text-area-underline)
-
-# Transparency
-
-Makes your Discord transparent. Maintained by Nyx.
-Note: This **REQUIRES** your injector to support transparency. BetterDiscord, Replugged, and Vencord are the 3 clients we provide direct support for that also have transparency. If you are using any other injector, you may not have access to transparency.
-
-### Usage
-
-1.  Copy and paste the following below the other imports
-
-    ```css
-    @import url(https://clearvision.github.io/Addons/transparency.css);
-    ```
-    
-2.  Change your --background-image variable to `transparent`:
-
-    ```css
-    --background-image: transparent; /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)] */
-    ```
-
-3.  Make sure to toggle the background transparency toggle in BetterDiscord settings if you are on that, or any other relevant toggle if you are on another injector that supports transparency.
+    - [Usage](#usage-4)
 
 # Gradients
 
