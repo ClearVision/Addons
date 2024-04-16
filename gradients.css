@@ -73,6 +73,7 @@
 .tag__69d9d,
 .option__571e3,
 .friendRequestsButton__77e10,
+.secondaryButtonPresentation_a9ebe0,
 .item__48dda.selected_a523ff:after,
 .iconContainer__1b9f0 {
   background: linear-gradient(var(--gradient-direction), var(--gradient-color1), var(--gradient-color2)) !important;
@@ -99,6 +100,12 @@
 .sidebar__02e8d .header__71a82:after {
   background: linear-gradient(to right, var(--gradient-color1) 50%, transparent) !important;
 }
+
+.numberBadge__40d6f,
+.textBadge_f05120 {
+  box-shadow: none !important;
+}
+
 
 .numberBadge__40d6f,
 .textBadge_f05120 {
