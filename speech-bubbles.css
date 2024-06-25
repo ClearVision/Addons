@@ -79,6 +79,6 @@
 
 /* HOVER */
 .cozy_ec86aa:hover .messageContent_ec86aa, 
-.cozy_ec86aa:hover .container_b558d0::before  {
+.cozy_ec86aa:hover .container_b558d0::before {
   background-color: var(--bubble-hover-color, hsla(0, 0%, 100%, 0.15));
 }
