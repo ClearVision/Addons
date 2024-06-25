@@ -80,7 +80,7 @@ Use the old discord font, Whitney. Maintained by Nyx, credit to @Overimagine1 fo
     --main-font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
     ```
 
-# Speech Bubbles - currently not working due to reroll
+# Speech Bubbles
 
 Displays text in chat as speech bubbbles. Maintained by Leozard ★
 
