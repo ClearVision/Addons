@@ -44,7 +44,7 @@
 [aria-selected=true].clickable_f23da8 .base_f23da8,
 [aria-disabled=false].clickable_f23da8 .base_f23da8:hover,
 .numberBadge_df8943,
-.textBadge_f05120,
+.textBadge_df8943,
 .lookFilled_dd4f85.colorBrand_dd4f85,
 .lookFilled_dd4f85.colorGreen_dd4f85,
 .lookFilled_dd4f85.colorBrandNew__8872c,
@@ -52,17 +52,17 @@
 .lookFilled_dd4f85.colorPrimary_dd4f85,
 .slider_c7a159 .barFill_c7a159,
 .theme-dark .tooltip_b6c360.tooltipBrand_b6c360,
-.item_fd07a3,
+.item_c4cd66,
 .circleIconButton_db6521.selected_db6521,
 .container_cc7b67,
 .search_a46bef.searchFilter_b0fa94,
 .search_a46bef.searchAnswer_b0fa94,
 .progressBar_c6473a,
-.mediaBarGrabber_f7877e,
-.mediaBarProgress_f7877e,
-.mediaBarProgress_f7877e:before,
-.mediaBarProgress_f7877e:after,
-.bubble_f7877e,
+.mediaBarGrabber_d12f5a,
+.mediaBarProgress_d12f5a,
+.mediaBarProgress_d12f5a:before,
+.mediaBarProgress_d12f5a:after,
+.bubble_d12f5a,
 .picker_cd703d .soundButton_f40049,
 .picker_cd703d .categoryIcon_ceda83.selected_ceda83,
 .category_fa8ebf.activeCategory_fa8ebf,
@@ -101,6 +101,9 @@
 }
 
 .numberBadge_df8943,
-.textBadge_f05120 {
+.textBadge_df8943 {
+  box-shadow: none !important;
+}
+
   box-shadow: none !important;
 }
