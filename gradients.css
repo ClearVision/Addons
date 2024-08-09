@@ -34,15 +34,15 @@
 .containerDragAfter_f6f816:before,
 .containerDragBefore_f6f816:before,
 .containerUserOver_f6f816:after,
-.unread_c10249:after,
-.mention_c10249:after,
+.unread_edf32f:after,
+.mention_edf32f:after,
 .privateChannels_f0963d .channel_c91bad .interactive_c91bad.interactiveSelected_c91bad:after,
 .button_a39fe9,
 .bar_eba0ba,
 .newMessagesBar_cf58b5:before,
 .jumpToPresentBar_cf58b5:hover,
-[aria-selected=true].clickable_f23da8 .base_f23da8,
-[aria-disabled=false].clickable_f23da8 .base_f23da8:hover,
+[aria-selected=true].clickable_bcc24e .base_bcc24e,
+[aria-disabled=false].clickable_bcc24e .base_bcc24e:hover,
 .numberBadge_df8943,
 .textBadge_df8943,
 .lookFilled_dd4f85.colorBrand_dd4f85,
@@ -70,7 +70,6 @@
 .content_b56bbc .categoryFadeBlurple_af1167:after,
 .content_b56bbc [style*="background-color:"].result_bad108,
 .tag_effbe2,
-.option_ee4ca6,
 .friendRequestsButton_c0c071,
 .secondaryButtonPresentation_a1531c,
 .item_a0.selected_a0:after,
@@ -79,7 +78,7 @@
 }
 
 .members_cbd271 .membersGroup_cbd271:not([style*="color: rgb"], #MemberCount h3) span,
-.sidebar_a4d4d9 .containerDefault_a08117 .wrapper_a08117 .name_a08117 .overflow_c74e70,
+.sidebar_a4d4d9 .containerDefault_a08117 .wrapper_a08117 .name_a08117 .overflow_a82120,
 .privateChannels_f0963d .privateChannelsHeaderContainer_c47fa9 .headerText_c47fa9,
 .headerText_a0 {
   background-image: linear-gradient(var(--gradient-direction), var(--gradient-color1), var(--gradient-color2)) !important;
@@ -102,8 +101,5 @@
 
 .numberBadge_df8943,
 .textBadge_df8943 {
-  box-shadow: none !important;
-}
-
   box-shadow: none !important;
 }
