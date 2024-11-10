@@ -1,11 +1,14 @@
-# Clearvision Addons
 
-Addons created for Clearvision theme. Some might not work properly with other themes, but they should work for most.
+# ClearVision Addons
 
-Support: [ClearVision Support Server](https://discord.gg/7pNUC9C)
+Addons created for the ClearVision theme. Some addons might not work properly with other themes but should function well with most.
 
-# Table of Contents
-- [Clearvision Addons](#clearvision-addons)
+**Support:** [ClearVision Support Server](https://discord.gg/7pNUC9C)
+
+---
+
+## Table of Contents
+- [ClearVision Addons](#clearvision-addons)
 - [Table of Contents](#table-of-contents)
 - [Gradients](#gradients)
     - [Usage](#usage)
@@ -15,101 +18,151 @@ Support: [ClearVision Support Server](https://discord.gg/7pNUC9C)
     - [Usage](#usage-2)
 - [Speech Bubbles](#speech-bubbles)
     - [Usage](#usage-3)
-- [Text Area Underline ](#text-area-underline)
+- [Text Area Underline](#text-area-underline)
     - [Usage](#usage-4)
 
-# Gradients
+---
 
-Adds gradients to various parts of the theme to make it more colourful. Maintained by Nyx.
+## Gradients
 
-### Usage
+Enhance your theme with <mark>colorful gradients</mark>. **Maintained by Nyx**.
 
-1.  Copy and paste the following below the other imports
+### <ins>Usage</ins>
+
+<details>
+<summary><strong>Instructions</strong></summary>
+<ol>
+    <li>Copy and paste the following below the other imports:<br><br>
 
     ```css
     @import url(https://clearvision.github.io/Addons/gradients.css);
-    ```
+    ```<br>
 
-2.  Add the following at the bottom inside of root:
+    </li>
+    <li>Add the following at the bottom inside of the <code>:root</code> selector:<br><br>
 
     ```css
     /* Gradients */
-    --gradient-color1: var(--main-color); /* primary color [default: var(--main-color) */
-    --gradient-color2: var(--hover-color); /* secondary color [default: var(--hover-color) */
+    --gradient-color1: var(--main-color); /* primary color [default: var(--main-color)] */
+    --gradient-color2: var(--hover-color); /* secondary color [default: var(--hover-color)] */
     --gradient-direction: 130deg; /* angle of gradient [default: 130deg] */
-    ```
+    ```<br>
 
-3.  Change the values to customize it and you're done
+    </li>
+    <li>Customize the values as needed, and <strong>you're done!</strong></li>
+</ol>
+</details>
 
-# Server Size
+---
 
-Adds a server size variable. Pings start to have a little trouble when you set the value lower than 48px, the discord default. Maintained by Nyx.
+## Server Size
 
-### Usage
+Adjust the server size with a simple variable. <strong>Maintained by Nyx</strong>.
 
-1.  Copy and paste the following below the other imports
+### <ins>Usage</ins>
+
+<details>
+<summary><strong>Instructions</strong></summary>
+<ol>
+    <li>Copy and paste the following below the other imports:<br><br>
 
     ```css
     @import url(https://clearvision.github.io/Addons/serversize.css);
-    ```
+    ```<br>
 
-2.  Add the following at the bottom inside of root:
+    </li>
+    <li>Add the following at the bottom inside of the <code>:root</code> selector:<br><br>
 
     ```css
     /* Server Size */
     --server-size: 48px;
-    ```
+    ```<br>
 
-3.  Change the value to customize it and you're done
+    </li>
+    <li>Change the value as needed to customize it, and <strong>you're set!</strong></li>
+</ol>
+</details>
 
-# Old Discord Font
+---
 
-Use the old discord font, Whitney. Maintained by Nyx, credit to @Overimagine1 for providing the new version of files and script. The old clearvision whitney script is obsolete due to missing characters. Note that this addon works just by importing the font, just like any other font import; thus if you have another font import that happens to have whitney, you don't need this.
+## Old Discord Font
 
-### Usage
+Revert to the old Discord font, Whitney. <strong>Maintained by Nyx</strong>, with credit to <strong>@Overimagine1</strong> for updates.
 
-1.  Copy and paste the following below the other imports
+### <ins>Usage</ins>
+
+<details>
+<summary><strong>Instructions</strong></summary>
+<ol>
+    <li>Copy and paste the following below the other imports:<br><br>
 
     ```css
     @import url(https://clearvision.github.io/Addons/whitney.css);
-    ``` 
+    ```<br>
 
-2.  Now, change your main-font back to Whitney. This looks like 
+    </li>
+    <li>Change your <code>--main-font</code> back to Whitney:<br><br>
 
     ```css
     --main-font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
-    ```
+    ```<br>
 
-# Speech Bubbles
+    </li>
+</ol>
+</details>
 
-Displays text in chat as speech bubbbles. Maintained by Leozard ★
+<mark>Note:</mark> If you already have a Whitney font import, this step may be unnecessary.
 
-### Usage
+---
 
-1.  Copy and paste the following below the other imports
+## Speech Bubbles
+
+Transform your chat text into <mark>speech bubbles</mark> for a fresh look. **Maintained by Leozard ★**.
+
+### <ins>Usage</ins>
+
+<details>
+<summary><strong>Instructions</strong></summary>
+<ol>
+    <li>Copy and paste the following below the other imports:<br><br>
 
     ```css
     @import url(https://clearvision.github.io/Addons/speech-bubbles.css);
-    ```
+    ```<br>
 
-2.  **Optional:** to change the colors add the following at the bottom inside of root:
+    </li>
+    <li><strong>Optional</strong>: Customize the bubble colors by adding this inside the <code>:root</code> selector:<br><br>
 
     ```css
-    /* Speech Bubbbles */
+    /* Speech Bubbles */
     --bubble-color: #fff;
-    --bubble-hover-color: #fff:
-    ```
+    --bubble-hover-color: #fff;
+    ```<br>
 
-# Text Area Underline
+    </li>
+</ol>
+</details>
 
-Replaces the default text area outline with a dynamic underline on hover or focus. Maintained by Randymations.
+---
 
-### Usage
+## Text Area Underline
 
-1.  Copy and paste the following below the other imports
+Replace the default text area outline with an <mark>elegant, dynamic underline</mark>. **Maintained by Randymations**.
+
+### <ins>Usage</ins>
+
+<details>
+<summary><strong>Instructions</strong></summary>
+<ol>
+    <li>Copy and paste the following below the other imports:<br><br>
 
     ```css
     @import url(https://clearvision.github.io/Addons/textAreaUnderline.css);
-    ```
+    ```<br>
 
-2.  You're done! The color of the underline respects your `--main-color`.
+    </li>
+    <li><strong>Done!</strong> The underline color will respect your <code>--main-color</code>.</li>
+</ol>
+</details>
+
+---
