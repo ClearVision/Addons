@@ -121,7 +121,7 @@ Addons created for the ClearVision theme. Some addons might not work properly wi
 <hr>
 
 <h2 id="text-area-underline">Text Area Underline</h2>
-<p>Replace the default text area outline with an <u>elegant, dynamic underline</u>.</p>
+<p>Replace the default text area outline with an <strong><ins>elegant, dynamic underline</strong></ins>.</p>
 <p><strong>Maintained by Randymations</strong></p>
 
 <details>
