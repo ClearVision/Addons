@@ -25,29 +25,28 @@ Addons created for the ClearVision theme. Some addons might not work properly wi
 
 ## Gradients
 
-Enhance your theme with <mark>colorful gradients</mark>. **Maintained by Nyx**.
+Enhance your theme with <strong>colorful gradients</strong>. <br><strong>Maintained by Nyx</strong>.
 
 ### <ins>Usage</ins>
 
 <details>
 <summary><strong>Instructions</strong></summary>
 <ol>
-    <li>Copy and paste the following below the other imports:<br><br>
+    <li>Copy and paste the following below the other imports:<br>
 
-    ```css
+    <code>
     @import url(https://clearvision.github.io/Addons/gradients.css);
-    ```<br>
-
+    </code><br>
     </li>
-    <li>Add the following at the bottom inside of the <code>:root</code> selector:<br><br>
+    <li>Add the following at the bottom inside of the <code>:root</code> selector:<br>
 
-    ```css
+    <code>
     /* Gradients */
     --gradient-color1: var(--main-color); /* primary color [default: var(--main-color)] */
     --gradient-color2: var(--hover-color); /* secondary color [default: var(--hover-color)] */
     --gradient-direction: 130deg; /* angle of gradient [default: 130deg] */
-    ```<br>
-
+    </code><br>
+    
     </li>
     <li>Customize the values as needed, and <strong>you're done!</strong></li>
 </ol>
@@ -57,27 +56,25 @@ Enhance your theme with <mark>colorful gradients</mark>. **Maintained by Nyx**.
 
 ## Server Size
 
-Adjust the server size with a simple variable. <strong>Maintained by Nyx</strong>.
+Adjust the server size with a simple variable. <br><strong>Maintained by Nyx</strong>.
 
 ### <ins>Usage</ins>
 
 <details>
 <summary><strong>Instructions</strong></summary>
 <ol>
-    <li>Copy and paste the following below the other imports:<br><br>
+    <li>Copy and paste the following below the other imports:<br>
 
-    ```css
+    <code>
     @import url(https://clearvision.github.io/Addons/serversize.css);
-    ```<br>
-
+    </code><br>
     </li>
-    <li>Add the following at the bottom inside of the <code>:root</code> selector:<br><br>
+    <li>Add the following at the bottom inside of the <code>:root</code> selector:<br>
 
-    ```css
+    <code>
     /* Server Size */
     --server-size: 48px;
-    ```<br>
-
+    </code><br>
     </li>
     <li>Change the value as needed to customize it, and <strong>you're set!</strong></li>
 </ol>
@@ -87,58 +84,54 @@ Adjust the server size with a simple variable. <strong>Maintained by Nyx</strong
 
 ## Old Discord Font
 
-Revert to the old Discord font, Whitney. <strong>Maintained by Nyx</strong>, with credit to <strong>@Overimagine1</strong> for updates.
+Revert to the old Discord font, Whitney. <br><strong>Maintained by Nyx</strong>, with credit to <strong>@Overimagine1</strong> for updates.
 
 ### <ins>Usage</ins>
 
 <details>
 <summary><strong>Instructions</strong></summary>
 <ol>
-    <li>Copy and paste the following below the other imports:<br><br>
+    <li>Copy and paste the following below the other imports:<br>
 
-    ```css
+    <code>
     @import url(https://clearvision.github.io/Addons/whitney.css);
-    ```<br>
-
+    </code><br>
     </li>
-    <li>Change your <code>--main-font</code> back to Whitney:<br><br>
+    <li>Change your <code>--main-font</code> back to Whitney:<br>
 
-    ```css
+    <code>
     --main-font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
-    ```<br>
-
+    </code>
     </li>
 </ol>
 </details>
 
-<mark>Note:</mark> If you already have a Whitney font import, this step may be unnecessary.
+> Note: If you already have a Whitney font import, this step may be unnecessary.
 
 ---
 
 ## Speech Bubbles
 
-Transform your chat text into <mark>speech bubbles</mark> for a fresh look. **Maintained by Leozard ★**.
+Transform your chat text into <strong>speech bubbles</strong> for a fresh look. <br><strong>Maintained by Leozard ★</strong>.
 
 ### <ins>Usage</ins>
 
 <details>
 <summary><strong>Instructions</strong></summary>
 <ol>
-    <li>Copy and paste the following below the other imports:<br><br>
+    <li>Copy and paste the following below the other imports:<br>
 
     ```css
     @import url(https://clearvision.github.io/Addons/speech-bubbles.css);
-    ```<br>
-
+    ```
     </li>
-    <li><strong>Optional</strong>: Customize the bubble colors by adding this inside the <code>:root</code> selector:<br><br>
+    <li><strong>Optional</strong>: Customize the bubble colors by adding this inside the <code>:root</code> selector:<br>
 
     ```css
     /* Speech Bubbles */
     --bubble-color: #fff;
     --bubble-hover-color: #fff;
-    ```<br>
-
+    ```
     </li>
 </ol>
 </details>
@@ -147,19 +140,19 @@ Transform your chat text into <mark>speech bubbles</mark> for a fresh look. **Ma
 
 ## Text Area Underline
 
-Replace the default text area outline with an <mark>elegant, dynamic underline</mark>. **Maintained by Randymations**.
+Replace the default text area outline with an <u>elegant, dynamic underline</u>. <br><strong>Maintained by Randymations</strong>.
 
 ### <ins>Usage</ins>
 
 <details>
 <summary><strong>Instructions</strong></summary>
 <ol>
-    <li>Copy and paste the following below the other imports:<br><br>
+    <li>Copy and paste the following below the other imports:<br>
 
-    ```css
+    <code>
     @import url(https://clearvision.github.io/Addons/textAreaUnderline.css);
-    ```<br>
-
+    </code><br>
+    
     </li>
     <li><strong>Done!</strong> The underline color will respect your <code>--main-color</code>.</li>
 </ol>
