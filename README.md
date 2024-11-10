@@ -36,22 +36,23 @@ Addons created for the ClearVision theme. Some addons might not work properly wi
 <p>Enhance your theme with <strong>colorful gradients</strong>.</p>
 <p><strong>Maintained by Nyx</strong></p>
 
-<h3>Usage</h3>
-
-<pre><code>
+<details>
+  <summary>Usage</summary>
+  <pre><code>
 @import url(https://clearvision.github.io/Addons/gradients.css);
 </code></pre>
 
-<p>Add the following at the bottom inside of the <code>:root</code> selector:</p>
+  <p>Add the following at the bottom inside of the <code>:root</code> selector:</p>
 
-<pre><code>
+  <pre><code>
 /* Gradients */
 --gradient-color1: var(--main-color); /* primary color [default: var(--main-color)] */
 --gradient-color2: var(--hover-color); /* secondary color [default: var(--hover-color)] */
 --gradient-direction: 130deg; /* angle of gradient [default: 130deg] */
 </code></pre>
 
-<p>Customize the values as needed, and <strong>you're done!</strong></p>
+  <p>Customize the values as needed, and <strong>you're done!</strong></p>
+</details>
 
 <hr>
 
@@ -59,20 +60,21 @@ Addons created for the ClearVision theme. Some addons might not work properly wi
 <p>Adjust the server size with a simple variable.</p>
 <p><strong>Maintained by Nyx</strong></p>
 
-<h3>Usage</h3>
-
-<pre><code>
+<details>
+  <summary>Usage</summary>
+  <pre><code>
 @import url(https://clearvision.github.io/Addons/serversize.css);
 </code></pre>
 
-<p>Add the following at the bottom inside of the <code>:root</code> selector:</p>
+  <p>Add the following at the bottom inside of the <code>:root</code> selector:</p>
 
-<pre><code>
+  <pre><code>
 /* Server Size */
 --server-size: 48px;
 </code></pre>
 
-<p>Change the value as needed to customize it, and <strong>you're set!</strong></p>
+  <p>Change the value as needed to customize it, and <strong>you're set!</strong></p>
+</details>
 
 <hr>
 
@@ -80,19 +82,20 @@ Addons created for the ClearVision theme. Some addons might not work properly wi
 <p>Revert to the old Discord font, Whitney.</p>
 <p><strong>Maintained by Nyx</strong>, with credit to <strong>@Overimagine1</strong> for updates.</p>
 
-<h3>Usage</h3>
-
-<pre><code>
+<details>
+  <summary>Usage</summary>
+  <pre><code>
 @import url(https://clearvision.github.io/Addons/whitney.css);
 </code></pre>
 
-<p>Change your <code>--main-font</code> back to Whitney:</p>
+  <p>Change your <code>--main-font</code> back to Whitney:</p>
 
-<pre><code>
+  <pre><code>
 --main-font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 </code></pre>
 
-<p><em>Note:</em> If you already have a Whitney font import, this step may be unnecessary.</p>
+  <p><em>Note:</em> If you already have a Whitney font import, this step may be unnecessary.</p>
+</details>
 
 <hr>
 
@@ -100,32 +103,34 @@ Addons created for the ClearVision theme. Some addons might not work properly wi
 <p>Transform your chat text into <strong>speech bubbles</strong> for a fresh look.</p>
 <p><strong>Maintained by Leozard ★</strong></p>
 
-<h3>Usage</h3>
-
-<pre><code>
+<details>
+  <summary>Usage</summary>
+  <pre><code>
 @import url(https://clearvision.github.io/Addons/speech-bubbles.css);
 </code></pre>
 
-<p><strong>Optional:</strong> Customize the bubble colors by adding this inside the <code>:root</code> selector:</p>
+  <p><strong>Optional:</strong> Customize the bubble colors by adding this inside the <code>:root</code> selector:</p>
 
-<pre><code>
+  <pre><code>
 /* Speech Bubbles */
 --bubble-color: #fff;
 --bubble-hover-color: #fff;
 </code></pre>
+</details>
 
 <hr>
 
 <h2 id="text-area-underline">Text Area Underline</h2>
-<p>Replace the default text area outline with an <strong><u>elegant, dynamic underline</strong></u>.</p>
+<p>Replace the default text area outline with an <strong><span style="text-decoration: underline;">Elegant, dynamic underline</span></strong>.</p>
 <p><strong>Maintained by Randymations</strong></p>
 
-<h3>Usage</h3>
-
-<pre><code>
+<details>
+  <summary>Usage</summary>
+  <pre><code>
 @import url(https://clearvision.github.io/Addons/textAreaUnderline.css);
 </code></pre>
 
-<p><strong>Done!</strong> The underline color will respect your <code>--main-color</code>.</p>
+  <p><strong>Done!</strong> The underline color will respect your <code>--main-color</code>.</p>
+</details>
 
 <hr>
