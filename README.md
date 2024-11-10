@@ -9,13 +9,13 @@ Support: [ClearVision Support Server](https://discord.gg/7pNUC9C)
 - [Table of Contents](#table-of-contents)
 - [Gradients](#gradients)
     - [Usage](#usage)
-- [Server Size - currently not working due to reroll](#server-size---currently-not-working-due-to-reroll)
+- [Server Size](#server-size)
     - [Usage](#usage-1)
 - [Old Discord Font](#old-discord-font)
     - [Usage](#usage-2)
-- [Speech Bubbles - currently not working due to reroll](#speech-bubbles---currently-not-working-due-to-reroll)
+- [Speech Bubbles](#speech-bubbles)
     - [Usage](#usage-3)
-- [Text Area Underline - currently not working due to reroll](#text-area-underline---currently-not-working-due-to-reroll)
+- [Text Area Underline ](#text-area-underline)
     - [Usage](#usage-4)
 
 # Gradients
@@ -41,7 +41,7 @@ Adds gradients to various parts of the theme to make it more colourful. Maintain
 
 3.  Change the values to customize it and you're done
 
-# Server Size - currently not working due to reroll
+# Server Size
 
 Adds a server size variable. Pings start to have a little trouble when you set the value lower than 48px, the discord default. Maintained by Nyx.
 
@@ -100,7 +100,7 @@ Displays text in chat as speech bubbbles. Maintained by Leozard ★
     --bubble-hover-color: #fff:
     ```
 
-# Text Area Underline - currently not working due to reroll
+# Text Area Underline
 
 Replaces the default text area outline with a dynamic underline on hover or focus. Maintained by Randymations.
 
