@@ -34,7 +34,7 @@ Addons created for the ClearVision theme. Some addons might not work properly wi
 
 <h2 id="gradients">Gradients</h2>
 <p>Enhance your theme with <strong>colorful gradients</strong>.</p>
-<p><strong>Maintained by Nyx</strong></p>
+<p><strong>Maintained by <a href="https://github.com/NyxIsBad">Nyx</a></strong></p>
 
 <details>
   <summary>Usage</summary>
@@ -58,7 +58,7 @@ Addons created for the ClearVision theme. Some addons might not work properly wi
 
 <h2 id="server-size">Server Size</h2>
 <p>Adjust the server size with a simple variable.</p>
-<p><strong>Maintained by Nyx</strong></p>
+<p><strong>Maintained by <a href="https://github.com/NyxIsBad">Nyx</a></strong></p>
 
 <details>
   <summary>Usage</summary>
@@ -80,7 +80,7 @@ Addons created for the ClearVision theme. Some addons might not work properly wi
 
 <h2 id="old-discord-font">Old Discord Font</h2>
 <p>Revert to the old Discord font, Whitney.</p>
-<p><strong>Maintained by Nyx</strong>, with credit to <strong>@Overimagine1</strong> for updates.</p>
+<p><strong>Maintained by <a href="https://github.com/Overimagine1">Nyx</a>, with credit to <a href="https://github.com/Overimagine1">Overimagine1</a> for updates.</strong></p>
 
 <details>
   <summary>Usage</summary>
@@ -101,7 +101,7 @@ Addons created for the ClearVision theme. Some addons might not work properly wi
 
 <h2 id="speech-bubbles">Speech Bubbles</h2>
 <p>Transform your chat text into <strong>speech bubbles</strong> for a fresh look.</p>
-<p><strong>Maintained by Leozard ★</strong></p>
+<p><strong>Maintained by <a href="https://github.com/Leozard">Leozard</a> ★</strong></p>
 
 <details>
   <summary>Usage</summary>
@@ -122,7 +122,7 @@ Addons created for the ClearVision theme. Some addons might not work properly wi
 
 <h2 id="text-area-underline">Text Area Underline</h2>
 <p>Replace the default text area outline with an <strong><ins>elegant, dynamic underline</strong></ins>.</p>
-<p><strong>Maintained by Randymations</strong></p>
+<p><strong>Maintained by <a href="https://github.com/randymations">Randymations</a></strong></p>
 
 <details>
   <summary>Usage</summary>
