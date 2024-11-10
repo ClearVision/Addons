@@ -1,6 +1,6 @@
-# ClearVision Addons
+<h1> ClearVision Addons </h1>
 
-Addons created for the ClearVision theme. Some addons might not work properly with other themes but should function well with most.
+<p> Addons created for the ClearVision theme. Some addons might not work properly with other themes but should function well with most. </p>
 
 <p><strong>Support:</strong> <a href="https://discord.gg/7pNUC9C">ClearVision Support Server</a></p>
 
@@ -9,11 +9,11 @@ Addons created for the ClearVision theme. Some addons might not work properly wi
 <h2>Table of Contents</h2>
 <ul>
   <li><a href="#addons-overview">Addons Overview</a></li>
-  <li><a href="#gradients">Gradients</a></li>
-  <li><a href="#server-size">Server Size</a></li>
-  <li><a href="#old-discord-font">Old Discord Font</a></li>
-  <li><a href="#speech-bubbles">Speech Bubbles</a></li>
-  <li><a href="#text-area-underline">Text Area Underline</a></li>
+  <li><a href="#gradients">Gradients</a> | <a href="#gradients-usage">Usage</a></li>
+  <li><a href="#server-size">Server Size</a> | <a href="#server-size-usage">Usage</a></li>
+  <li><a href="#old-discord-font">Old Discord Font</a> | <a href="#old-discord-font-usage">Usage</a></li>
+  <li><a href="#speech-bubbles">Speech Bubbles</a> | <a href="#speech-bubbles-usage">Usage</a></li>
+  <li><a href="#text-area-underline">Text Area Underline</a> | <a href="#text-area-underline-usage">Usage</a></li>
 </ul>
 
 <hr>
@@ -38,6 +38,7 @@ Addons created for the ClearVision theme. Some addons might not work properly wi
 
 <details>
   <summary>Usage</summary>
+  <a id="gradients-usage"></a>
   <pre><code>
 @import url(https://clearvision.github.io/Addons/gradients.css);
 </code></pre>
@@ -62,6 +63,7 @@ Addons created for the ClearVision theme. Some addons might not work properly wi
 
 <details>
   <summary>Usage</summary>
+  <a id="server-size-usage"></a>
   <pre><code>
 @import url(https://clearvision.github.io/Addons/serversize.css);
 </code></pre>
@@ -84,6 +86,7 @@ Addons created for the ClearVision theme. Some addons might not work properly wi
 
 <details>
   <summary>Usage</summary>
+  <a id="old-discord-font-usage"></a>
   <pre><code>
 @import url(https://clearvision.github.io/Addons/whitney.css);
 </code></pre>
@@ -105,6 +108,7 @@ Addons created for the ClearVision theme. Some addons might not work properly wi
 
 <details>
   <summary>Usage</summary>
+  <a id="speech-bubbles-usage"></a>
   <pre><code>
 @import url(https://clearvision.github.io/Addons/speech-bubbles.css);
 </code></pre>
@@ -126,6 +130,7 @@ Addons created for the ClearVision theme. Some addons might not work properly wi
 
 <details>
   <summary>Usage</summary>
+  <a id="text-area-underline-usage"></a>
   <pre><code>
 @import url(https://clearvision.github.io/Addons/textAreaUnderline.css);
 </code></pre>
