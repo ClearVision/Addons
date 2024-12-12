@@ -103,3 +103,13 @@
 .textBadge_df8943 {
   box-shadow: none !important;
 }
+
+.mediaBarWrapper_d12f5a,
+.mediaBarProgress_d12f5a {
+    border-radius: 3px;
+}
+
+.fakeEdges_d12f5a:before,
+.fakeEdges_d12f5a:after {
+    content: unset;
+}
