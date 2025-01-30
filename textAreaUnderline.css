@@ -24,19 +24,19 @@ If you are not using another theme, uncomment root.
 :root {
     --main-color: var(--brand-experiment);
     --background-color: var(--channeltextarea-background);
-} 
+}
 */
 
-.channelTextArea_bdf0de {
+.channelTextArea__74017 {
   background: var(--background-color, rgba(0, 0, 0, 0.6));
   transition: all 0.15s ease-in-out;
 }
 
-.channelTextArea_bdf0de:focus-within {
+.channelTextArea__74017:focus-within {
   box-shadow: none;
 }
 
-.channelTextArea_bdf0de:after {
+.channelTextArea__74017:after {
   display: block;
   content: '';
   border-bottom: 2px solid var(--main-color, var(--brand-experiment));
@@ -47,12 +47,12 @@ If you are not using another theme, uncomment root.
   margin-right: 4px;
 }
 
-.channelTextArea_bdf0de:hover:after {
+.channelTextArea__74017:hover:after {
   opacity: 0.5;
   transform: scaleX(0.5);
 }
 
-.channelTextArea_bdf0de:focus-within:after {
+.channelTextArea__74017:focus-within:after {
   opacity: 1;
   transform: scaleX(1);
   border-bottom-left-radius: 2px;
