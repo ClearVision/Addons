@@ -100,3 +100,11 @@
 .textBadge__2b1f5 {
   box-shadow: none !important;
 }
+
+.mediaBarWrapper_b26b79,
+.mediaBarProgress_b26b79 {
+  border-radius: 3px;
+}
+.fakeEdges_b26b79:after, .fakeEdges_b26b79:before {
+  content: unset;
+}
