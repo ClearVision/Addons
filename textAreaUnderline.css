@@ -58,3 +58,8 @@ If you are not using another theme, uncomment root.
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
+
+.channelAppLauncher_e6e74f button {
+  width: 50px;
+  height: 50px;
+}
