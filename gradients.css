@@ -101,12 +101,13 @@
   box-shadow: none !important;
 }
 
-.mediaBarWrapper_d12f5a,
-.mediaBarProgress_d12f5a {
-    border-radius: 3px;
+.mediaBarWrapper_b26b79,
+.mediaBarProgress_b26b79,
+.buffer_b26b79 {
+  border-radius: 3px;
 }
 
-.fakeEdges_d12f5a:before,
-.fakeEdges_d12f5a:after {
-    content: unset;
+.fakeEdges_b26b79:before,
+.fakeEdges_b26b79:after {
+  content: unset;
 }
