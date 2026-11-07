@@ -1,25 +1,22 @@
 /**
  * @name ClearVision Add-on: Gradients
  * @author ClearVision Team
- * @version 1.0.0
- * @description Gradient add-on for ClearVision, make sure this is added first!
+ * @version 2.0.0
+ * @description Gradient add-on for ClearVision v7, make sure this is added first!
  * @source https://github.com/ClearVision/Addons
- * @website https://clearvision.gitlab.io
+ * @website https://clearvision.github.io
  * @invite 2fKpjAR
  */
-
-
 /*add the contents of the root below into the root of of your theme file or copy the entire root below into the bottom of your theme
 
 :root {
 	--gradient-color1: var(--main-color);
-	--gradient-color2: var(--hover-color); 
-	--gradient-direction: 130deg; 
+	--gradient-color2: var(--hover-color);
+	--gradient-direction: 130deg;
 }
 
 */
-
-/* ### Gradients for Clearvision v6.3.0 by Nyx ### */
+/* ### Gradients for Clearvision v7 by Nyx ### */
 :root {
   /* Gradients */
   --gradient-color1: var(--main-color); /* primary color [default: var(--main-color) */
@@ -28,86 +25,98 @@
 }
 
 .bd-toast,
-.link__2ea32:after,
-.containerDragAfter_c69b6d:after,
-.containerDragBefore_c69b6d:after,
-.containerDragAfter_c69b6d:before,
-.containerDragBefore_c69b6d:before,
-.containerUserOver_c69b6d:after,
-.unread__3b95d:after,
-.mention__3b95d:after,
-.privateChannels__35e86 .channel__972a0 .interactive__972a0.interactiveSelected__972a0:after,
-.button__71c22,
-.bar__7aaec,
-.newMessagesBar__0f481:before,
-.jumpToPresentBar__0f481:hover,
-[aria-selected=true].clickable__13533 .base__13533,
-[aria-disabled=false].clickable__13533 .base__13533:hover,
-.numberBadge__2b1f5,
-.textBadge__2b1f5,
-.lookFilled__201d5.colorBrand__201d5,
-.lookFilled__201d5.colorGreen__201d5,
-.lookFilled__201d5.buttonColor__7b3e8,
-.lookFilled__201d5.colorPrimary__201d5,
-.slider_a562c8 .barFill_a562c8,
-.theme-dark .tooltip__382e7.tooltipBrand__382e7,
-.item__58105,
-.circleIconButton__5bc7e.selected__5bc7e,
-.container_d8f25b,
-.search__97492.searchFilter_bd8186,
-.search__97492.searchAnswer_bd8186,
-.progressBar__89dcd,
-.mediaBarGrabber_b26b79,
-.mediaBarProgress_b26b79,
-.mediaBarProgress_b26b79:before,
-.mediaBarProgress_b26b79:after,
-.bubble_b26b79,
-.category_fa8ebf.activeCategory_fa8ebf,
-.uploadIcon__94439,
-.content_fed6d3 .categoryFadeBlurple_d02962:after,
-.content_fed6d3 [style*="background-color:"].result__2dc39,
-.tag_fea832,
-.friendRequestsButton__523aa,
-.secondaryButtonPresentation__0be77,
-.item_b3f026.selected_b3f026:after,
-.iconContainer__1b9f0 {
+.link_TNyK-N::before,
+.containerDragAfter_Wx6SnQ::before,
+.containerDragAfter_Wx6SnQ::after,
+.containerDragBefore_Wx6SnQ::before,
+.containerDragBefore_Wx6SnQ::after,
+.containerUserOver_Wx6SnQ::after,
+.unread_oJAkDB::after,
+.mention_oJAkDB::after,
+.privateChannels_u88IQl .channel_zln_tS .interactive_zln_tS.interactiveSelected_zln_tS::before,
+.button_DC2Jmc,
+.bar_t1P8Sn,
+.newMessagesBar_j9Vvzj,
+.jumpToPresentBar_j9Vvzj:hover,
+.hasMore_j9Vvzj:hover,
+[aria-selected=true].clickable_CAMiwx .base_CAMiwx,
+[aria-disabled=false].clickable_CAMiwx .base_CAMiwx:hover,
+.numberBadge_lMvXrQ,
+.textBadge_JPK15v,
+.lookFilled_9OQtot.colorBrand_9OQtot,
+.lookFilled_9OQtot.colorGreen_9OQtot,
+.lookFilled_9OQtot.colorPrimary_9OQtot,
+.primary_F7qvhY,
+.slider_p3RiOL .barFill_p3RiOL,
+:is(.theme-dark, .theme-darker, .theme-midnight) .tooltip_3_v8qp.tooltipBrand_3_v8qp,
+.item__o8_Xq,
+.iconBadge_rwEpIL.isCurrentUserConnected_rwEpIL,
+.circleIconButton_g8YUxD.selected_g8YUxD,
+.container_Ax3P1g,
+.searchFilter_tknKcK,
+.searchAnswer_tknKcK,
+.progressBar_GQQbyK,
+.mediaBarGrabber_s1cr3c,
+.mediaBarProgress_s1cr3c,
+.mediaBarProgress_s1cr3c::before,
+.mediaBarProgress_s1cr3c::after,
+.bubble_s1cr3c,
+.picker_1lN7Eh :is(.soundButton_N99eHz, .soundButtonRefresh__9be63),
+.picker_1lN7Eh .categoryIcon_X9_kMu.selected_X9_kMu,
+.uploadIcon_YeZ5Kj,
+.content_rfDq2B .categoryFadeBlurple_d2GpC2::after,
+.content_rfDq2B .result_H8nOze[style*="background-color:"],
+.tag_isqatr,
+.friendRequestsButton_QwUPp6,
+.item_6zZYhF.selected_6zZYhF::after,
+.wrapper_TNyK-N.modeSelected_TNyK-N .link_TNyK-N::before,
+.wrapper_JJ-hgR.selected_JJ-hgR .childWrapper_JJ-hgR,
+.mention_oJAkDB,
+.mini_p3RiOL .barFill_p3RiOL,
+.colorBrand_Q02kKo,
+.tabBar_zrUwGA .addFriend_zrUwGA,
+.replying_SY_P2T::before,
+.ephemeral_SY_P2T::before,
+.checkboxSelected_SZxRc8,
+.cardBrand_qCN-Ri {
   background: linear-gradient(var(--gradient-direction), var(--gradient-color1), var(--gradient-color2)) !important;
 }
 
-.members_c8ffbb .membersGroup_c8ffbb:not([style*="color: rgb"], #MemberCount h3) span,
-.sidebar_c48ade .containerDefault__29444 .wrapper__29444 .name__29444 .overflow__82b15,
-.privateChannels__35e86 .privateChannelsHeaderContainer__99e7c .headerText__99e7c,
-.headerText_b3f026 {
+.members_86es0b .membersGroup_86es0b:not([style*="color: rgb"], #MemberCount h3) span,
+.sidebar_pog62O .containerDefault_yOdhm_ .wrapper_yOdhm_ .name_yOdhm_ .overflow__WDjet,
+.privateChannels_u88IQl .privateChannelsHeaderContainer_Bce46W .headerText_Bce46W,
+.headerText_6zZYhF {
   background-image: linear-gradient(var(--gradient-direction), var(--gradient-color1), var(--gradient-color2)) !important;
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent !important;
 }
 
-.members_c8ffbb .membersGroup_c8ffbb:not([style*="color: rgb"]):before,
-.sidebar_c48ade .containerDefault__29444 .wrapper__29444 .name__29444:before,
-.privateChannels__35e86 .privateChannelsHeaderContainer__99e7c:before,
-.sidebar__23e6b .header_b3f026:before {
+.members_86es0b .membersGroup_86es0b:not([style*="color: rgb"])::before,
+.sidebar_pog62O .containerDefault_yOdhm_ .wrapper_yOdhm_ .name_yOdhm_::before,
+.privateChannels_u88IQl .privateChannelsHeaderContainer_Bce46W .headerText_Bce46W::before,
+.sidebar_jnk11m .header_6zZYhF::before {
   background: linear-gradient(to left, var(--gradient-color1) 50%, transparent) !important;
 }
-.members_c8ffbb .membersGroup_c8ffbb:not([style*="color: rgb"]):after,
-.sidebar_c48ade .containerDefault__29444 .wrapper__29444 .name__29444:after,
-.privateChannels__35e86 .privateChannelsHeaderContainer__99e7c:after,
-.sidebar__23e6b .header_b3f026:after {
+.members_86es0b .membersGroup_86es0b:not([style*="color: rgb"])::after,
+.sidebar_pog62O .containerDefault_yOdhm_ .wrapper_yOdhm_ .name_yOdhm_::after,
+.privateChannels_u88IQl .privateChannelsHeaderContainer_Bce46W .headerText_Bce46W::after,
+.sidebar_jnk11m .header_6zZYhF::after {
   background: linear-gradient(to right, var(--gradient-color1) 50%, transparent) !important;
 }
 
-.numberBadge__2b1f5,
-.textBadge__2b1f5 {
+.numberBadge_lMvXrQ,
+.textBadge_JPK15v {
   box-shadow: none !important;
 }
 
-.mediaBarWrapper_b26b79,
-.mediaBarProgress_b26b79,
-.buffer_b26b79 {
+.mediaBarWrapper_s1cr3c,
+.mediaBarProgress_s1cr3c,
+.buffer_s1cr3c {
   border-radius: 3px;
 }
 
-.fakeEdges_b26b79:before,
-.fakeEdges_b26b79:after {
+.fakeEdges_s1cr3c::before,
+.fakeEdges_s1cr3c::after {
   content: unset;
 }

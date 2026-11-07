@@ -12,8 +12,12 @@
   <li><a href="#gradients">Gradients</a> | <a href="#gradients-usage">Usage</a></li>
   <li><a href="#server-size">Server Size</a> | <a href="#server-size-usage">Usage</a></li>
   <li><a href="#old-discord-font">Old Discord Font</a> | <a href="#old-discord-font-usage">Usage</a></li>
-  <li><a href="#speech-bubbles">Speech Bubbles</a> | <a href="#speech-bubbles-usage">Usage</a></li>
-  <li><a href="#text-area-underline">Text Area Underline</a> | <a href="#text-area-underline-usage">Usage</a></li>
+  <li><a href="#obsolete-addons">Obsolete Addons</a>
+    <ul>
+      <li><a href="#speech-bubbles">Speech Bubbles</a> (obsolete)</li>
+      <li><a href="#text-area-underline">Text Area Underline</a> (obsolete)</li>
+    </ul>
+  </li>
 </ul>
 
 <hr>
@@ -26,8 +30,8 @@
   <li><strong>Gradients:</strong> Adds vibrant and customizable gradients to various elements, such as buttons and backgrounds, to give your theme a more dynamic look.</li>
   <li><strong>Server Size:</strong> Adjusts the size of server icons, allowing you to customize the layout and space used for each server within the theme.</li>
   <li><strong>Old Discord Font:</strong> Reverts the Discord font to the older "Whitney" font for users who prefer the classic aesthetic.</li>
-  <li><strong>Speech Bubbles:</strong> Transforms chat messages into stylized speech bubbles, providing a fresh, modern look to message bubbles in Discord.</li>
-  <li><strong>Text Area Underline:</strong> Replaces the standard text input outline with a sleek, dynamic underline that follows the color scheme of the theme.</li>
+  <li><strong>Speech Bubbles (obsolete):</strong> Transforms chat messages into stylized speech bubbles, providing a fresh, modern look to message bubbles in Discord.</li>
+  <li><strong>Text Area Underline (obsolete):</strong> Replaces the standard text input outline with a sleek, dynamic underline that follows the color scheme of the theme.</li>
 </ul>
 
 <hr>
@@ -102,7 +106,13 @@
 
 <hr>
 
-<h2 id="speech-bubbles">Speech Bubbles</h2>
+<h2 id="obsolete-addons">Obsolete Addons</h2>
+<p>OBSOLETE</p>
+
+<details>
+  <summary>Show obsolete addons</summary>
+
+<h3 id="speech-bubbles">Speech Bubbles (Obsolete)</h3>
 <p>Transform your chat text into <strong>speech bubbles</strong> for a fresh look.</p>
 <p><strong>Maintained by <a href="https://github.com/Leozard">Leozard</a> ★</strong></p>
 
@@ -124,7 +134,7 @@
 
 <hr>
 
-<h2 id="text-area-underline">Text Area Underline</h2>
+<h3 id="text-area-underline">Text Area Underline (Obsolete)</h3>
 <p>Replace the default text area outline with an <strong><ins>elegant, dynamic underline</strong></ins>.</p>
 <p><strong>Maintained by <a href="https://github.com/randymations">Randymations</a></strong></p>
 
@@ -136,6 +146,8 @@
 </code></pre>
 
   <p><strong>Done!</strong> The underline color will respect your <code>--main-color</code>.</p>
+</details>
+
 </details>
 
 <hr>
