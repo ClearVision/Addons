@@ -42,7 +42,6 @@
 [aria-selected=true].clickable_CAMiwx .base_CAMiwx,
 [aria-disabled=false].clickable_CAMiwx .base_CAMiwx:hover,
 .numberBadge_lMvXrQ,
-.textBadge_JPK15v,
 .lookFilled_9OQtot.colorBrand_9OQtot,
 .lookFilled_9OQtot.colorGreen_9OQtot,
 .lookFilled_9OQtot.colorPrimary_9OQtot,
@@ -105,8 +104,7 @@
   background: linear-gradient(to right, var(--gradient-color1) 50%, transparent) !important;
 }
 
-.numberBadge_lMvXrQ,
-.textBadge_JPK15v {
+.numberBadge_lMvXrQ {
   box-shadow: none !important;
 }
 
